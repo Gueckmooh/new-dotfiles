@@ -5,3 +5,7 @@
 [diff]
     command = "emacs"
     args = ["-nw", "-ediff", "{{ .Destination }}", "{{ .Target }}"]
+
+[edit]
+    command = "emacs"
+    args = ["-nw"]

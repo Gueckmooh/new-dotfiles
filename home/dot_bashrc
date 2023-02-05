@@ -24,6 +24,7 @@ require() {
 
 # Require all the packages
 require general
+require xdg
 require path
 require prompt
 require alias

@@ -9,3 +9,7 @@
 [edit]
     command = "emacs"
     args = ["-nw"]
+
+[data.terminal]
+    font = "hack"
+    fontsize = "12"

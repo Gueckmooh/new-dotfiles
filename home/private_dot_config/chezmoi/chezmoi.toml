@@ -1,0 +1,7 @@
+[merge]
+    command = "emacs"
+    args = ["-nw", "-ediff-merge", "{{ .Source }}", "{{ .Destination }}", "{{ .Target }}"]
+
+[diff]
+    command = "emacs"
+    args = ["-nw", "-ediff", "{{ .Destination }}", "{{ .Target }}"]

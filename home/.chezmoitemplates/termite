@@ -32,10 +32,10 @@ scrollbar = off
 #cursor = #dcdccc
 #cursor_foreground = #dcdccc
 
-{{ if eq .transparent "yes" }}
+{{ if eq .transparent "yes" -}}
 # 20% background transparency (requires a compositor)
 background = rgba(63, 63, 63, 0.8)
-{{ end }}
+{{- end }}
 
 # If unset, will reverse foreground and background
 highlight = #AAAAAA

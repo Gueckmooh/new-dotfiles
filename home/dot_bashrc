@@ -34,5 +34,6 @@ require lsp
 require mpd
 require tmux
 require fzf
+require golang
 
 unset require BASHRCD

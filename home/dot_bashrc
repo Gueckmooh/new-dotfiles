@@ -32,5 +32,6 @@ require completions
 require lsp
 require mpd
 require tmux
+require fzf
 
 unset require BASHRCD

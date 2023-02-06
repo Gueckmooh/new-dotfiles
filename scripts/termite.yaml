@@ -1,0 +1,5 @@
+name: termite
+linux:
+  all:
+    meson:
+      git: https://github.com/aperezdc/termite

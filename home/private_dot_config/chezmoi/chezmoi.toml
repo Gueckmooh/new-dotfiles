@@ -12,4 +12,4 @@
 
 [data.terminal]
     font = "hack"
-    fontsize = "12"
+    fontsize = "10"

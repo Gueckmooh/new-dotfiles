@@ -20,3 +20,5 @@ shopt -s globstar
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
+PATH="${HOME}/.local/bin:${PATH}"
+PATH="${HOME}/bin:${PATH}"

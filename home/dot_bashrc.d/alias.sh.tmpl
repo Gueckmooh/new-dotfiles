@@ -1,3 +1,4 @@
+# -*- mode: shell-script; -*-
 # colors
 if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
@@ -23,10 +24,10 @@ alias clipboard='xclip -selection clipboard'
 # Get screenshots
 alias cdscreen='[[ -d ~/Images/screenshots/$(date +%F)-screenshots ]] && cd ~/Images/screenshots/$(date +%F)-screenshots || echo "No screenshots taken today"'
 
+{{ if eq .chezmoi.osRelease.id "arch" -}}
 # If the os is arch, use `see` as in debian
-if [[ "$(awk -vFS== '/^ID/ {print $2}' /etc/os-release)" = arch ]]; then
-    alias see='run-mailcap'
-fi
+alias see='run-mailcap'
+{{- end }}
 
 # Minimize terminal in awesome
 alias n='echo client.focus.minimized = true | awesome-client'

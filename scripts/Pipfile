@@ -7,6 +7,9 @@ name = "pypi"
 distro = "*"
 pyyaml = "*"
 types-pyyaml = "*"
+python-lsp-server = {extras = ["all"], version = "*"}
+pylsp-mypy = "*"
+pyre-check = "*"
 
 [dev-packages]
 

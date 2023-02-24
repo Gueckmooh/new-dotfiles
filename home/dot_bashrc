@@ -24,9 +24,11 @@ require() {
 
 # Require all the packages
 require general
+require ls
 require xdg
 require prompt
 require alias
+require function
 require gcc
 require completions
 require lsp
@@ -34,5 +36,6 @@ require mpd
 require tmux
 require fzf
 require golang
+require cmake
 
 unset require BASHRCD
